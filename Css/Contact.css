@@ -1,0 +1,291 @@
+/* Navbar */
+
+body{
+    
+    font-family: 'Roboto';
+    margin:30px 30px 0px 30px;
+    list-style-type: none;
+    
+}
+
+.logo{
+  margin:15px;  
+  height: 12%;
+  width: 12%;
+  
+}
+
+.bouton-hover{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    float: right;
+    border: solid 1px black;
+    
+  }
+  .bouton-hover a{
+    color: #0d0101;
+    font-weight:bolder;
+  }
+  .bouton-hover:hover{
+   background-color: #cdcdd1;
+  
+    
+  }
+  #connect{
+     width: 22px;
+     height: 21px;
+  }
+  
+   nav .Menu{
+      display: flex;
+      list-style: none;
+      text-decoration: bold;
+      margin-left: 309px;
+      background-size: 100%;
+      background: linear-gradient(to right, #ffffff, #49ffff);
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s;
+      border-radius: 20px;
+      margin-right: 20px;
+      
+  
+  }
+  .Menu a:hover {
+      color: #ff0000;
+      font-size: larger;
+      background-color:khaki;
+    }
+  
+  a {
+      text-decoration: none;
+      margin-right: 50px;
+      font-size: large;
+      color: black;
+      font-family:'Roboto';
+      border-radius: 2px;
+      
+  }
+   li{
+      margin: 15px;
+  }
+  
+  .Menu a {
+      color: #333;
+      text-decoration: none;
+      padding: 10px;
+    }
+  
+    .Menu a:not(:last-child) {
+      border-right: 1px solid #ccc;
+    }
+
+/* Mon formulaire */
+
+.inscription{
+   
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 0px;
+    font-size: 17px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    background-image: linear-gradient(to bottom right, #ffffff, #f2f2f2);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    display: inline flow-root list-item;
+    list-style-type: none;
+   
+
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+  .box{
+    width: 5%;
+  }
+  
+  textarea {
+    resize: vertical;
+    width: 400px;
+  }
+  
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .type1[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 411px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .Bureau{
+    width: 1080px;
+    height: 600px;
+    float: right;
+    margin-top: -560px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: -100px;
+
+  }
+
+  /* signin */
+  
+  .container {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: top;
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 400px;
+  }
+
+  .container h2 {
+    text-align: center;
+    color: #333333;
+  }
+
+  .container input[type="text"],
+  .container input[type="password"] {
+    width: 59%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+  }
+
+  .container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f8d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .container button:hover {
+    background-color: #ff4961;
+  }
+
+/* Titres 1 et 2 */
+
+  .title-registered {
+    text-align: center;
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 120px;
+    margin-top: 50px;
+  }
+
+  .title-contact {
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out infinite alternate;
+    background: linear-gradient(to right, #b9d9e8, #e1e1e1);
+    border-radius: 5px;
+    
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  
+
+/* FOOTER */
+
+
+.footer {
+    background: linear-gradient(to right, #b9d9e8, #e1e1e1);
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Roboto' bold;
+    position: inherit;
+    border-radius: 2px;
+    
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    display: inline;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+  }
+  
+  .footer nav a {
+    margin: 0 10px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 15px;
+  }
+  
+  .footer nav a:hover {
+    color: #ffffff;
+    font-family: 'Roboto';
+  
+  }

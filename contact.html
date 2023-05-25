@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D'anciens stagiaires témoignent</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="JS/script.js">
+    <link rel="stylesheet" href="Css/Contact.css">
+    
+  </head>
+  <body>
+    <header>
+      <div class="bouton-hover">
+        <a class="low" href="contact.html" class="btn">Mon compte <img id="connect" src="Images/icons8-male-user-48.png" alt=""></a>
+      </div>
+      <section class="entete">
+      <img class="logo" src="Images/logo.jpeg" alt="Logo de la société AFPA"/>
+      
+        
+        </div>
+
+        <nav aria-label="Navbar1">
+        
+        <ul class="Menu">
+          
+          
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="formationDWWM.html">La formation</a></li>
+          <li><a href="temoignages.html">Ils témoignent</a></li>
+          <li><a href="references.html">Nos références</a></li>
+          <li><a href="contact.html">Nous contacter</a></li>
+
+        </ul>
+      </nav>
+
+
+    </section>
+    
+    </header>
+
+    
+
+    <h1 class="title-contact">Contactez-nous</h1>
+  <h2 class="title-registered">Déjà inscrit ?</h2>
+
+    <main>
+      
+
+      <form class="inscription">
+        <div class="form-group">
+          <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required placeholder="Prénom">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required placeholder="Nom">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="email">Votre adresse mail :</label>
+          <input type="email" id="email" name="email" required placeholder="monmail@gmail.com">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="telephone">Votre téléphone :</label>
+          <input type="tel" id="telephone" name="telephone" required placeholder="06 03 05 04 06">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="statut">Vous êtes :</label>
+          <select id="statut" name="statut" required>
+            <option value="demandeur">Demandeur d'emploi</option>
+            <option value="salarie">Salarié en transition pro</option>
+            <option value="autre">Autre</option>
+          </select>
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Vos modalités pédagogiques préférées :</label><br>
+          <div class="checkbox-group">
+            <label><input class="box" type="checkbox" name="modalites" value="presentiel">Formation en présentiel</label>
+            <label><input class="box" type="checkbox" name="modalites" value="distance">100% Distance</label>
+            <label><input class="box" type="checkbox" name="modalites" value="alternance">Alternance</label>
+            <label><input class="box" type="checkbox" name="modalites" value="pas-preference">Pas de préférence</label>
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="region">Vous êtes résident de la région :</label><br>
+          
+              <select id="region" name="region">
+            <option value="">Choisissez votre région</option>
+            <option value="AR">Auvergne-Rhône-Alpes</option>
+            <option value="BG">Bourgogne-Franche-Comté</option>
+            <option value="BR">Bretagne</option>
+            <option value="CE">Centre-Val de Loire</option>
+            <option value="CO">Corse</option>
+            <option value="GE">Grand Est</option>
+            <option value="IF">Hauts-de-France</option>
+            <option value="HF">Île-de-France</option>
+            <option value="NO">Normandie</option>
+            <option value="NA">Nouvelle-Aquitainee</option>
+            <option value="OC">Occitanie</option>
+            <option value="PL">Pays de la Loire</option>
+            <option value="PC">Provence-Alpes-Côte d'Azur</option>
+            <option value="OC">Occitanie</option>
+          </select>
+        </div>
+        <br>
+        <div id="message">
+          <label for="message">Votre message</label><br>
+          <textarea name="message" id="message" rows="10" placeholder="Votre message" required="required"
+            tabindex="0"></textarea>
+        </div>
+        
+        <br>
+        <button class="type1" type="submit">Envoyer</button>
+
+        <img class="Bureau" src="Images/burst-kUqqaRjJuw0-unsplash.jpg" alt="">
+
+        <div class="container">
+          <h2>Se connecter</h2>
+          <form action="#" method="post">
+            <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+            <input type="password" name="password" placeholder="Mot de passe" required>
+            <button type="submit">Se connecter</button>
+          </form>
+        </div>
+      </form>
+
+      
+      
+  
+      
+        
+      
+      
+    </main>
+    <br>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2023 AFPA. Tous droits réservés.</p>
+        <nav aria-label="Navbar2">
+          <a href="https://www.afpa.fr/actualites/politique-des-acha-1">Fournisseurs</a>
+          <a href="https://www.afpa.fr/documents/21653/0/CGV-2021.pdf/5ec1a4aa-17e4-832b-2c74-48c29f2f83c0">CVG</a>
+          <a href="https://www.afpa.fr/actualites/reglementation-interieur-stagiaire"> Règlement intérieur stagiaires</a>
+          <a href="https://www.afpa.fr/particulier/votre-experience-afpa-nous-contacter/conta-1">Nous contacter</a>
+          <a href="https://www.afpa.fr/actualites/reclamations">Réclamations</a>
+          <a href="https://www.afpa.fr/actualites/conformite-de-nos-prestations">Conformité</a>
+          <a href="https://www.afpa.fr/actualites/liens-util-1">Liens utiles</a>
+          <a href="https://www.afpa.fr/plan-de-site">Plan du site</a>
+          <a href="https://www.afpa.fr/actualites/politique-de-protection-des-donnees-a-caractere-personnel">Politique de protection des données </a>
+          <a href="https://www.afpa.fr/actualites/politique-de-gestion-des-cookies">cookies</a>
+          <a href="https://www.afpa.fr/actualites/cgu">CGU</a>
+          <a href="https://www.afpa.fr/accessibilite">Accessibilité : non conforme</a>
+          <a href="https://www.afpa.fr/actualites/credits">Crédits</a>
+          <a href="https://www.afpa.fr/actualites/mentions-legal-1">Mentions légales</a>
+          <a href="https://www.afpa.fr/espace-presse">Espace presse</a>
+          
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
+
